@@ -15,7 +15,7 @@ handler = logging.StreamHandler()
 handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
 logger.addHandler(handler)
 
-TOKEN = "MTIyOTg0NjY2MzUzNjA1NDM4Ng.GI7oWT.aDfQdR_zqr8Bamr7K06xpYHF3eCFGJkmLR8Jhc"
+TOKEN = "МОЙ ТОКЕН"
 
 SqlAlchemyBase = orm.declarative_base()
 
